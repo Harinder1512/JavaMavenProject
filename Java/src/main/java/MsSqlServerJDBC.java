@@ -10,8 +10,8 @@ public class MsSqlServerJDBC {
 	private static final String JDBC_URL = "jdbc:sqlserver://localhost:1433;"
 			+ "databaseName=tempdb;integratedSecurity=true;trustServerCertificate=true";
 
-	private static final String JDBC_USER = "harinder";// NR for windows authentication
-	private static final String JDBC_PASSWORD = "admin"; // NR for windows authentication
+	private static final String JDBC_USER = "xyz";// NR for windows authentication
+	private static final String JDBC_PASSWORD = "xyz"; // NR for windows authentication
 
 	public static void main(String[] args) throws SQLException, ClassNotFoundException {
 		Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
